@@ -1,0 +1,468 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.36f1 (95a4219250e5) revision 9806881'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit ProfessionalWorkstation' Language: 'es' Physical Memory: 8055 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Hub\Editor\2022.3.36f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Judith/Proyects/Examen2P
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49902
+Successfully changed project path to: D:/Judith/Proyects/Examen2P
+D:/Judith/Proyects/Examen2P
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [788] Host "[IP] 192.168.1.196 [Port] 0 [Flags] 2 [Guid] 345842391 [EditorId] 345842391 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IKLOHR2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [788] Host "[IP] 192.168.1.196 [Port] 0 [Flags] 2 [Guid] 345842391 [EditorId] 345842391 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IKLOHR2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 11008.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.36f1 (95a4219250e5)
+[Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Judith/Proyects/Examen2P/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 617 (ID=0x87c0)
+    Vendor:   Intel
+    VRAM:     4027 MB
+    Driver:   31.0.101.2111
+Initialize mono
+Mono path[0] = 'D:/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Hub/Editor/2022.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Hub/Editor/2022.3.36f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 1.457061 seconds.
+- Loaded All Assemblies, in 22.579 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1239 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.680 seconds
+Domain Reload Profiling: 25259ms
+	BeginReloadAssembly (15709ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (908ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (1653ms)
+	LoadAllAssembliesAndSetupDomain (4273ms)
+		LoadAssemblies (15714ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4258ms)
+			TypeCache.Refresh (4255ms)
+				TypeCache.ScanAssembly (3677ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2681ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2539ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2013ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (358ms)
+			ProcessInitializeOnLoadMethodAttributes (153ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 15.640 seconds
+Refreshing native plugins compatible for Editor in 5.09 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.196 seconds
+Domain Reload Profiling: 16835ms
+	BeginReloadAssembly (399ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (215ms)
+	RebuildNativeTypeToScriptingClass (49ms)
+	initialDomainReloadingComplete (158ms)
+	LoadAllAssembliesAndSetupDomain (14817ms)
+		LoadAssemblies (13498ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1543ms)
+			TypeCache.Refresh (1480ms)
+				TypeCache.ScanAssembly (1346ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (1197ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (865ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (661ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 6.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.6 KB). Loaded Objects now: 3559.
+Memory consumption went from 124.2 MB to 124.1 MB.
+Total: 4.988000 ms (FindLiveObjects: 0.352600 ms CreateObjectMapping: 0.323500 ms MarkObjects: 4.145300 ms  DeleteObjects: 0.165400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 850.760508 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(e539a7131a509704b9e1dc172fa82d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(e539a7131a509704b9e1dc172fa82d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '256e4ae3b71c6aebee25cdaba2ec1579') in 0.002403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.344 seconds
+Refreshing native plugins compatible for Editor in 18.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.307 seconds
+Domain Reload Profiling: 5652ms
+	BeginReloadAssembly (397ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (95ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (760ms)
+		LoadAssemblies (867ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (4307ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1119ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (812ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader 'ABKaspo/A.U.R.W./HDRP/Easy Water': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'ABKaspo/A.U.R.W./HDRP/Easy Water': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 7.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (2.7 MB). Loaded Objects now: 3565.
+Memory consumption went from 125.4 MB to 122.7 MB.
+Total: 4.897900 ms (FindLiveObjects: 0.363000 ms CreateObjectMapping: 0.324200 ms MarkObjects: 3.862900 ms  DeleteObjects: 0.346600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 866.573770 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(e539a7131a509704b9e1dc172fa82d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(e539a7131a509704b9e1dc172fa82d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '506a32668697db262654b0dabb7495f5') in 0.004658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.103940 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2418d44e161e3ce2e8daeaa5c00c20e4') in 0.001324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 90.851456 seconds.
+  path: Assets/ABKaspo Games Assets/AURW
+  artifactKey: Guid(9e69401546804f6449bb00d4eb59590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/AURW using Guid(9e69401546804f6449bb00d4eb59590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2b6c01930ecef2c8c771249d5b84d9c6') in 0.000990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.815566 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/AURW HDRP
+  artifactKey: Guid(f2cfd85e0d0650e4d95c4937b2583a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/AURW HDRP using Guid(f2cfd85e0d0650e4d95c4937b2583a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '64ef13fe3b50568563cbe26c8184571b') in 0.041939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.117572 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/AURW HDRP/AURW_HDRP_sceneDemo
+  artifactKey: Guid(d1a248fc1bf38b64e88418eeb3d75a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/AURW HDRP/AURW_HDRP_sceneDemo using Guid(d1a248fc1bf38b64e88418eeb3d75a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8f0268cda1ce42d66ad811b422c4adb6') in 0.002927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.217344 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/AURW HDRP/AURW_HDRP_sceneDemo/Global Volume Profile.asset
+  artifactKey: Guid(e299614b0a8601a4fac2c81f3a6da1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/AURW HDRP/AURW_HDRP_sceneDemo/Global Volume Profile.asset using Guid(e299614b0a8601a4fac2c81f3a6da1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4d7b6cca3aa1bb291c2d77ed5f667695') in 0.046282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/AURW HDRP/AURW_HDRP_sceneDemo/Sky and Fog Settings Profile.asset
+  artifactKey: Guid(7c2a3605cd917b84da9e3db9d8decc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/AURW HDRP/AURW_HDRP_sceneDemo/Sky and Fog Settings Profile.asset using Guid(7c2a3605cd917b84da9e3db9d8decc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'cac0406f8907e878751c7529ee3b0c1b') in 0.009594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.746660 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/AURW HDRP/AURW_HDRP_sceneDemo.unity
+  artifactKey: Guid(bbe150e1a43931c44bfedddbd123e27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/AURW HDRP/AURW_HDRP_sceneDemo.unity using Guid(bbe150e1a43931c44bfedddbd123e27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '666b88417cc79632b9a2f2294b4b1cba') in 0.001976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.693972 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/TerrainData/DemoScene.asset
+  artifactKey: Guid(5f694ec7e4499b04ca7ca42ef627a5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/TerrainData/DemoScene.asset using Guid(5f694ec7e4499b04ca7ca42ef627a5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c9cacae668ca659653d770e19725ed4d') in 0.566374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.633687 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/TerrainData/Materials
+  artifactKey: Guid(92af7607e57e7934e867cda1701118c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/TerrainData/Materials using Guid(92af7607e57e7934e867cda1701118c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fa726ad73f44457592eac82ce3d5a3ca') in 0.009565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.079675 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/TerrainData/Materials/Default.mat
+  artifactKey: Guid(091a057ac54fc1b46902cda4ede1cdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/TerrainData/Materials/Default.mat using Guid(091a057ac54fc1b46902cda4ede1cdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd9dd0b79cf78c00bbe7163870a8543d1') in 0.394767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/TerrainData/Materials/Terrain Material.mat
+  artifactKey: Guid(48bd18a7c32bd0f42858832bcd63b3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/TerrainData/Materials/Terrain Material.mat using Guid(48bd18a7c32bd0f42858832bcd63b3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '67caa33b3e179aaf9a6e6c0ef2b0e96a') in 0.094836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001936 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/TerrainData/Materials/Unity HDRP Default.mat
+  artifactKey: Guid(eec56bb4f0113c843a336075af1967c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/TerrainData/Materials/Unity HDRP Default.mat using Guid(eec56bb4f0113c843a336075af1967c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f113c0328d20f6a9ab85ca242d5e2100') in 0.082627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/TerrainData/Materials/SkyBox Demo.mat
+  artifactKey: Guid(bcf4e73e38d860f46a860a0f739d90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/TerrainData/Materials/SkyBox Demo.mat using Guid(bcf4e73e38d860f46a860a0f739d90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd47e8ee760bc2c6e4ce19fa6c6be8222') in 1.121001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 91.501963 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/TerrainData/Layers
+  artifactKey: Guid(ce2f4e62c495b9b42a5348da725a5378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/TerrainData/Layers using Guid(ce2f4e62c495b9b42a5348da725a5378) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '87e45b1798f87b7638ed8df215268d35') in 0.000846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.119622 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/TerrainData/Layers/Aerial Beah.terrainlayer
+  artifactKey: Guid(2c3d6be2c5d6d1e47900366853e33f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/TerrainData/Layers/Aerial Beah.terrainlayer using Guid(2c3d6be2c5d6d1e47900366853e33f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7690ba4880c5669ce893cff43cfca5f5') in 0.160267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/TerrainData/Layers/Grass04.terrainlayer
+  artifactKey: Guid(bcd342af1950a224e99bfb8d13773fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/TerrainData/Layers/Grass04.terrainlayer using Guid(bcd342af1950a224e99bfb8d13773fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '828cb45453d91a8ad790d8a9fed911c0') in 0.408433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/TerrainData/Layers/Grass01.terrainlayer
+  artifactKey: Guid(8d97376d673149244ba30732ac755c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/TerrainData/Layers/Grass01.terrainlayer using Guid(8d97376d673149244ba30732ac755c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '23950076eeb6ea2829ce0ce13eeec716') in 0.109302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/TerrainData/Layers/Grass03.terrainlayer
+  artifactKey: Guid(81e49e1c0179020448c7003d4f188c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/TerrainData/Layers/Grass03.terrainlayer using Guid(81e49e1c0179020448c7003d4f188c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '328efd95497ce58e9343eb0065bce53a') in 0.140555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/TerrainData/Layers/Brown Mud.terrainlayer
+  artifactKey: Guid(da3a8d9b5a29e7a4fa7683be657a05ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/TerrainData/Layers/Brown Mud.terrainlayer using Guid(da3a8d9b5a29e7a4fa7683be657a05ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2c67f9bfb100d7e03aae1221a2e4ccf9') in 0.133151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/TerrainData/Layers/Grass02.terrainlayer
+  artifactKey: Guid(4c6d5035b0deb6d4d9f876563b44f16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/TerrainData/Layers/Grass02.terrainlayer using Guid(4c6d5035b0deb6d4d9f876563b44f16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9e449eb5f0fb6cc4e2e269a91b4e58c0') in 0.243974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ABKaspo Games Assets/Demos/TerrainData/Layers/Grass05.terrainlayer
+  artifactKey: Guid(4c13ae88c313c8b40b4e8166f7680b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ABKaspo Games Assets/Demos/TerrainData/Layers/Grass05.terrainlayer using Guid(4c13ae88c313c8b40b4e8166f7680b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '640232b2e845833c822ded4c3d7cc783') in 0.205012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
